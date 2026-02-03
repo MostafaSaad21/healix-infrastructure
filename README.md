@@ -39,7 +39,7 @@ healix-infrastructure/
 ├── variables.tf      # Global variables
 ├── outputs.tf        # Important outputs (ALB DNS, CloudFront URL)
 └── provider.tf       # AWS Provider setup
-
+```
 🛠️ Prerequisites
 Before you begin, ensure you have the following installed:
 
@@ -50,28 +50,33 @@ AWS CLI (Configured with aws configure)
 🚀 How to Deploy
 Clone the repository:
 
-Bash
+```Bash
 
 git clone [https://github.com/MostafaSaad21/healix-infrastructure.git](https://github.com/MostafaSaad21/healix-infrastructure.git)
 cd healix-infrastructure
+```
 Initialize Terraform: Downloads the necessary providers and initializes the backend.
 
-Bash
+```Bash
 
 terraform init
+```
 Plan the Deployment: Preview the resources that will be created.
 
-Bash
+```Bash
 
 terraform plan
+```
 Apply Changes: Provision the infrastructure on AWS.
 
-Bash
+```Bash
 
 terraform apply --auto-approve
+```
 🧹 Cleanup
 To destroy all resources and avoid AWS charges:
 
-Bash
+```Bash
 
 terraform destroy --auto-approve
+```

@@ -52,7 +52,7 @@ Clone the repository:
 
 ```Bash
 
-git clone [https://github.com/MostafaSaad21/healix-infrastructure.git](https://github.com/MostafaSaad21/healix-infrastructure.git)
+git clone [[https://github.com/MostafaSaad21/healix-infrastructure.git](https://github.com/MostafaSaad21/healix-infrastructure.git)](https://github.com/MostafaSaad21/healix-infrastructure.git)
 cd healix-infrastructure
 ```
 Initialize Terraform: Downloads the necessary providers and initializes the backend.
@@ -73,7 +73,7 @@ Apply Changes: Provision the infrastructure on AWS.
 
 terraform apply --auto-approve
 ```
-🧹 Cleanup
+ Cleanup
 To destroy all resources and avoid AWS charges:
 
 ```Bash

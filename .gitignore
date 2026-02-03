@@ -16,3 +16,6 @@ terraform.rc
 .idea/
 .vscode/
 .DS_Store
+
+
+.terraform.lock.hcl
